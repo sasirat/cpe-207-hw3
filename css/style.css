@@ -20,6 +20,10 @@ body {
     font-size: 2.5rem;
 }
 
-.bg-dark {
+.bg-info {
     background-color: #757575!important;
+}
+
+.info-header{
+    font-size: 25px;
 }
