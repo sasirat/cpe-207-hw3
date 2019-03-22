@@ -27,3 +27,9 @@ body {
 .info-header{
     font-size: 25px;
 }
+
+.gallery{
+    color: #757575;
+    text-align: center;
+    margin-bottom: 20px;
+}
