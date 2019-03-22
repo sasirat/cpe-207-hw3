@@ -209,14 +209,66 @@
             </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Lorem ipsum
-          dolor sit, amet consectetur adipisicing elit. Laboriosam, amet, molestias eius fugiat deserunt illo ipsa fuga
-          ad incidunt, delectus quisquam ipsam itaque ducimus architecto quas voluptate laudantium doloribus?
-          Voluptates!Reprehenderit expedita cupiditate aliquam unde quos provident consequatur asperiores, omnis
-          officiis aliquid corporis quam cumque laborum placeat maiores libero eveniet autem eius. Voluptatum nemo
-          distinctio omnis molestiae ea quam cupiditate.</div>
+        <!-- contact -->
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-8 order-md-1">
+                <h4 class="mb-3">Contact</h4>
+                <form class="needs-validation" novalidate="">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <label for="subject">Subject</label>
+                      <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                      <div class="invalid-feedback">
+                        Valid subject is required.
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="exampleFormControlTextarea1">Massage</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="lastName">Name</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                      <div class="invalid-feedback">
+                        Valid Name.
+                      </div>
+                    </div>
+                  </div>
+
+                  <label for="gender">Gender</label>
+                  <div class="d-block ">
+                    <div class="custom-control custom-radio">
+                      <input id="male" name="gender" type="radio" class="custom-control-input" checked="" required="">
+                      <label class="custom-control-label" for="male">Male</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input id="female" name="gender" type="radio" class="custom-control-input" required="">
+                      <label class="custom-control-label" for="female">Female</label>
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                      Please enter a valid email .
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="Phone">Phone</label>
+                    <input type="text" class="form-control" id="address" required="">
+                    <div class="invalid-feedback">
+                      Please enter your phone.
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
   </main>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
