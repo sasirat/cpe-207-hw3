@@ -215,7 +215,7 @@
             <div class="row justify-content-center">
               <div class="col-md-8 order-md-1">
                 <h1 class="Gallery my-4">Contact</h1>
-                <form class="needs-validation" novalidate="">
+                <form id="my-contact" class="needs-validation" novalidate="">
                   <div class="row">
                     <div class="col-md-12">
                       <label for="subject">Subject</label>
@@ -239,8 +239,8 @@
 
                   <label for="gender">Gender</label>
                   <div class="d-block ">
-                    <div class="gender">
-                      <input id="male" name="gender" type="radio" class="custom-control-input" checked="" required="">
+                    <div class="custom-control custom-radio">
+                      <input id="male" name="gender" type="radio" class="custom-control-input" required="">
                       <label class="custom-control-label" for="male">Male</label>
                     </div>
                     <div class="custom-control custom-radio">
@@ -259,7 +259,7 @@
 
                   <div class="mb-3">
                     <label for="Phone">Phone</label>
-                    <input type="text" class="form-control" id="address" required="">
+                    <input type="text" class="form-control" id="phone" required="">
                     <div class="invalid-feedback">
                       Please enter your phone.
                     </div>
@@ -270,12 +270,32 @@
             </div>
           </div>
           <!-- show contact -->
-          <div class="container">
-            
+          <div class="container my-4">
+            <div class="row justify-content-center">
+              <div class="col-md-8 order-md-1">
+                <div id="docsresult" class="card border-light mb-3" style="max-width: 18rem;">
+                    <!-- <div class="card-header">
+                        <div class="card-body">
+                            <h5 class="card-title">${name}</h5>
+                            <p class="card-text">${doc}</p>
+                        </div>
+                    </div>
+                    <div class="card-header">
+                        <div class="card-body">
+                            <h5 class="card-title">${name}</h5>
+                            <p class="card-text">${doc}</p>
+                        </div>
+                    </div> -->
+                </div>
+              </div>
+            </div>
           </div>
-
         </div>
       </div>
+    </div>
+
+    </div>
+    </div>
   </main>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -287,7 +307,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
-    <script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
